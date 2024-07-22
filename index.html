@@ -58,48 +58,8 @@
         <p>respuestaa: <input type="text" id="reruraro" name="reruraro" /></p>
         
 
-        <h3 style="color: gold;">comentarios sobre la pagina o: </h3>
-
-        <!DOCTYPE html>
-        <html lang="es">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Caja de Comentarios</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <div class="comment-box">
-                <h2>Comentarios</h2>
-                <div id="comment-container"></div>
-                <input id="name-input" type="text" placeholder="Tu nombre">
-                <textarea id="comment-input" placeholder="Escribe tu comentario aquí..."></textarea>
-                <button onclick="addComment()">Añadir comentario</button>
-            </div>
-            <script>
-                function addComment() {
-                    const commentContainer = document.getElementById('comment-container');
-                    const nameInput = document.getElementById('name-input');
-                    const commentInput = document.getElementById('comment-input');
-                    const nameText = nameInput.value.trim();
-                    const commentText = commentInput.value.trim();
-        
-                    if (nameText !== "" && commentText !== "") {
-                        const comment = document.createElement('div');
-                        comment.className = 'comment';
-                        comment.innerHTML = `<span class="comment-author">${nameText}:</span> ${commentText}`;
-                        commentContainer.appendChild(comment);
-        
-                        // Limpiar los campos de texto
-                        nameInput.value = "";
-                        commentInput.value = "";
-                    } else {
-                        alert("Por favor, escribe tu nombre y un comentario antes de enviarlo.");
-                    }
-                }
-            </script>
-        </body>
-        </html>
+        <h3 style="color: gold;"> esto ah sido eliminado</h3>
+        <h5>porque eliminaste los comentarios??, esto fue porque no es posible hacer que se guarden, ademas es muy complicado hacerlo lo lamento</h5>
         
 
         
