@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+
+    
+</head>
+
+
+<script src="funciones.js"></script>
+
+<link rel="stylesheet" href="sytile.css">
+
+<body>
+    
+    <h1>calculadora culo =O </h1>
+
+    <form id="formulario">
+
+        <h1>sumas</h1>
+
+        <p>nuemero sumas ;D: <input type="text" id="numeroUno" name="numeroUno" /></p>
+        <p>numero sumas :D: <input type="text" id="numeroDos" name="numeroDos" /></p>
+
+        <p></p><button type="button" id="operacion" name="operacion" onclick="resultadoOperacion(numeroUno.value, numeroDos.value)">ssumas</button>button></p>
+
+        <p>resultaduqui: <input type="text" id="resultado" name="resultado" /></p>
+
+
+        <p>colores divertidoss! : <input type="color" id="parads" name="parads" /></p>
+
+        
+        </form>
+        <h1>restas</h1>
+         <p>numero restas: <input type="text" id="numero_uno"  name="numero_uno"  /></p>
+         <p>numero restas: <input type="text" id="numero_dos"  name="numero_dos" /></p>
+
+        <p><button type="button" id="operaci_on" name="operaci_on" onclick="resultoperation(numero_uno.value, numero_dos.value)">restas</button></p>
+
+         <p>resultados: <input type="text" id="resu_ltado" name="resu_ltado"  /></p>
+
+         <h1>multiplicacion</h1>
+        <p>numero multiplicacion <input type="text" id="numero__uno" name="numero__uno" /></p>
+        <p>numero multiplicacion <input type="text" id="numero__dos" name="numero__dos" /></p>
+
+        <p><button type="button" id="operaci__on" name="operaci__on" onclick="resulttoperation(numero__uno.value, numero__dos.value)">multiplicar</button></p>
+
+        <p>resultado: <input type="text" id="resu__ltado" name="resu__ltado" /></p>
+
+        <h1>dividir</h1>
+        <p>numero division: <input type="text" id="numeroruno" name="numeroruno" /></p>
+        <p>numero division: <input type="text" id="numerordos" name="numerordos" /></p>
+        
+        <p><button type="button" id="operarion" name="operarion" onclick="rerurarooperarion()">dividir</button></p>
+
+        <p>respuestaa: <input type="text" id="reruraro" name="reruraro" /></p>
+        
+
+        <h3 style="color: gold;">comentarios sobre la pagina o: </h3>
+
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Caja de Comentarios</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <div class="comment-box">
+                <h2>Comentarios</h2>
+                <div id="comment-container"></div>
+                <input id="name-input" type="text" placeholder="Tu nombre">
+                <textarea id="comment-input" placeholder="Escribe tu comentario aquí..."></textarea>
+                <button onclick="addComment()">Añadir comentario</button>
+            </div>
+            <script>
+                function addComment() {
+                    const commentContainer = document.getElementById('comment-container');
+                    const nameInput = document.getElementById('name-input');
+                    const commentInput = document.getElementById('comment-input');
+                    const nameText = nameInput.value.trim();
+                    const commentText = commentInput.value.trim();
+        
+                    if (nameText !== "" && commentText !== "") {
+                        const comment = document.createElement('div');
+                        comment.className = 'comment';
+                        comment.innerHTML = `<span class="comment-author">${nameText}:</span> ${commentText}`;
+                        commentContainer.appendChild(comment);
+        
+                        // Limpiar los campos de texto
+                        nameInput.value = "";
+                        commentInput.value = "";
+                    } else {
+                        alert("Por favor, escribe tu nombre y un comentario antes de enviarlo.");
+                    }
+                }
+            </script>
+        </body>
+        </html>
+        
+
+        
+
+
+    .   
+
+</body>
+</html>
+
+
+
+</script>
+
+        </form>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>
+
+         </form>
+
+
+</body>
+</html>
