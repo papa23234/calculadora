@@ -34,24 +34,5 @@ function rerurarooperarion(){
     document.getElementById("reruraro").value = reruraro;
 }
 
-//as+
-
-function addComment() {
-    const commentContainer = document.getElementById('comment-container');
-    const commentInput = document.getElementById('comment-input');
-    const commentText = commentInput.value.trim();
-
-    if (commentText !== "") {
-        const comment = document.createElement('div');
-        comment.className = 'comment';
-        comment.textContent = commentText;
-        commentContainer.appendChild(comment);
-
-        // Limpiar el campo de texto
-        commentInput.value = "";
-    } else {
-        alert("Por favor, escribe un comentario antes de enviarlo.");
-    }
-}
 
 
